@@ -1,9 +1,10 @@
 #!/bin/sh
 
 DEPLOY_SERVER_PATH=~/apache-tomcat-9.0.39
-APP_NAME=Beer-v1
 
-echo "DEPLOY_SERVER_PATH ${DEPLOY_SERVER_PATH}"
+
+
+APP_NAME=Beer-v1
 echo "APP NAME: ${APP_NAME}"
 
 if [ -d ${DEPLOY_SERVER_PATH}/webapps/${APP_NAME} ] 
